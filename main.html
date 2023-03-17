@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
 
+        <div>
+            <label for="portfolio">Portfolio</label>
+            <input type="url" id="portfolio" name="portfolio" required>
+        </div>
+
+        <div>
+            <label for="favColor">FavColor</label>
+            <input type="color" id="favColor" name="favColor" required>
+        </div>
+        
+        <div>
+            <label for="likeness">likeness</label>
+            <input type="range" min="1" max="100"  name="likeness" id="likeness">
+        </div>
+        <div><input type="submit"></div>
+    </form>
 </body>
-
 </html>
